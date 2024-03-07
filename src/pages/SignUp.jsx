@@ -16,7 +16,7 @@ import { useState } from "react";
 
 const SignUp = () => {
   const navigate = useNavigate();
-  
+
   const [firstName, setFirstName] = useState("");
   const [firstNameError, setFirstNameError] = useState("");
   const [lastName, setLastName] = useState("");
