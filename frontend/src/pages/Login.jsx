@@ -12,34 +12,6 @@ const Login = () => {
   const [password, setPassword] = useState("");
   const [passwordError, setPasswordError] = useState("");
 
-  // async function getData() {
-  //   try {
-  //     let data = (
-  //       await fetch("https://jsonplaceholder.typicode.com/posts")
-  //     ).json();
-  //     console.log(data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // }
-
-  // let getData = async () => {
-  //   try {
-  // let data1 = (
-  //   await fetch("https://jsonplaceholder.typicode.com/posts")
-  // ).json();
-  // console.log(data1);
-
-  //     let data = await fetch("https://jsonplaceholder.typicode.com/posts");
-  //     data = await data.json();
-  //     console.log(data);
-  //   } catch (error) {
-  //     console.log(error);
-  //   }
-  // };
-
-  // getData();
-
   const validateEmail = () => {
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
